@@ -11,7 +11,7 @@ steps:
   - run:
       name: Setup environment
       command: |
-        gb="/src/github.com/${CIRCLW_PROJECT_USERNAMW}";
+        gb="/src/github.com/${CIRCLE_PROJECT_USERNAMW}";
         if [ ${CIRCLE_PROJECT_USERNAME} == 'Securing-DevOps' ]; then
           dr="securingdevops"
         else
