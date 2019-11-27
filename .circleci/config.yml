@@ -5,4 +5,4 @@ jobs:
       - image: circleci/python:3.4
     steps:
       - checkout
-      - run: print("A first hello")
+      - run: print "A first hello"
